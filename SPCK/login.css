@@ -1,0 +1,64 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("astronaut-cat-moon-digital-art-4k-wallpaper-uhdpaper.com-261@0@j.jpg");
+    background-size: cover; /* Đảm bảo hình nền đầy đủ phủ kín kích thước của .background-container */
+    background-position: center; /* Căn giữa hình nền */
+    background-repeat: no-repeat; /* Ngăn việc lặp lại hình nền */
+    width: 100%; /* Đảm bảo .background-container kích thước bằng kích thước của cửa sổ trình duyệt */
+    height: 100vh; /* Chiều cao của .background-container là 100% chiều cao của cửa sổ trình duyệt */
+}
+
+.lr {
+    background-color: rgb(169, 169, 169);
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+h2{
+    color: white;
+}
+.form{
+    width: 100%;
+}
+.div-1{
+    margin-top: 5%;
+}
+.div-1 a{
+    color: white;
+    text-decoration: none;
+}
+.div-1 button{
+    width: 60%;
+    height: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.div-2{
+    display: inline;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.E-P{
+    height: 100%;
+    width: 60%;
+}
